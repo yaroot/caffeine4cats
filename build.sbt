@@ -1,5 +1,7 @@
-organization := "todo.yaroot"
-scalaVersion := "2.13.2"
+organization := "io.github.quasi-category"
+name := "caffeine4cats"
+scalaVersion := "2.13.3"
+crossScalaVersions := Seq("2.12.12", "2.13.3")
 
 fork in run := true
 addCompilerPlugin("org.typelevel"    % "kind-projector"     % "0.11.0" cross CrossVersion.full)
@@ -15,3 +17,6 @@ libraryDependencies ++= Seq(
   "com.github.ben-manes.caffeine" % "caffeine"    % "2.8.5",
   "org.scalameta"                %% "munit"       % "0.7.12" % Test
 )
+
+version ~= (_.replace('+', '-'))
+dynver ~= (_.replace('+', '-'))
