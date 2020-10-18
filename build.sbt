@@ -14,7 +14,7 @@ cancelable in Global := true
 
 libraryDependencies ++= Seq(
   "org.typelevel"                %% "cats-effect" % "2.1.4",
-  "com.github.ben-manes.caffeine" % "caffeine"    % "2.8.5",
+  "com.github.ben-manes.caffeine" % "caffeine"    % "2.8.6",
   "org.scalameta"                %% "munit"       % "0.7.12" % Test
 )
 
