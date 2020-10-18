@@ -13,7 +13,7 @@ scalafmtOnCompile := true
 cancelable in Global := true
 
 libraryDependencies ++= Seq(
-  "org.typelevel"                %% "cats-effect" % "2.1.4",
+  "org.typelevel"                %% "cats-effect" % "2.2.0",
   "com.github.ben-manes.caffeine" % "caffeine"    % "2.8.5",
   "org.scalameta"                %% "munit"       % "0.7.12" % Test
 )
