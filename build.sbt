@@ -15,7 +15,7 @@ cancelable in Global := true
 libraryDependencies ++= Seq(
   "org.typelevel"                %% "cats-effect" % "2.2.0",
   "com.github.ben-manes.caffeine" % "caffeine"    % "2.8.6",
-  "org.scalameta"                %% "munit"       % "0.7.14" % Test
+  "org.scalameta"                %% "munit"       % "0.7.15" % Test
 )
 
 version ~= (_.replace('+', '-'))
