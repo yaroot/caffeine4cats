@@ -1,4 +1,4 @@
-organization := "io.github.quasi-category"
+organization := "io.github.yaroot"
 name := "caffeine4cats"
 scalaVersion := "2.13.3"
 crossScalaVersions := Seq("2.12.12", "2.13.3")
